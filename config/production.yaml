@@ -1,11 +1,11 @@
 listen:
-  hostname: 'localhost'
+  hostname: 'https://6246723807e5637cc408d350--adorable-arithmetic-0445f3.netlify.app/'
   port: 9000
 
 # Correspond to your reverse proxy server_name/listen configuration (i.e., your public PeerTube instance URL)
 webserver:
   https: true
-  hostname: 'example.com'
+  hostname: 'https://6246723807e5637cc408d350--adorable-arithmetic-0445f3.netlify.app/'
   port: 443
 
 rates_limit:
@@ -34,7 +34,7 @@ trust_proxy:
 
 # Your database name will be database.name OR 'peertube'+database.suffix
 database:
-  hostname: 'localhost'
+  hostname: 'https://6246723807e5637cc408d350--adorable-arithmetic-0445f3.netlify.app/'
   port: 5432
   ssl: false
   suffix: '_prod'
@@ -65,7 +65,7 @@ smtp:
   tls: true # If you use StartTLS: false
   disable_starttls: false
   ca_file: null # Used for self signed certificates
-  from_address: 'admin@example.com'
+  from_address: 'tamilerbrian@gmail.com'
 
 email:
   body:
