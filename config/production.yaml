@@ -309,7 +309,7 @@ cache:
 admin:
   # Used to generate the root user at first startup
   # And to receive emails from the contact form
-  email: 'admin@example.com'
+  email: 'tamilerbrian@gmail.com'
 
 contact_form:
   enabled: true
